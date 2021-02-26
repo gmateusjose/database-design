@@ -1,0 +1,9 @@
+﻿Name,Students,Courses,Classes,Semesters,Lecturers,Users,Access Levels,LogEntries
+Students,,,register,,,assigned,,
+Courses,,pre-requisite,scheduled,,lecture,,,
+Classes,register,scheduled,,created for,lecture,,,
+Semesters,,,created for,,,,,
+Lecturers,,lecture,lecture,,,assigned,,
+Users,assigned,,,,assigned,create,designated,create
+Access Levels,,,,,,designated,,
+LogEntries,,,,,,create,,
