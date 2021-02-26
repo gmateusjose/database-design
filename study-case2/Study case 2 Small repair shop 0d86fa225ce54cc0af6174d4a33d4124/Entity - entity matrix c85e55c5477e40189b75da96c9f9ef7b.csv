@@ -1,0 +1,8 @@
+﻿Name,RepairJob,Computers,Items,Repairmen,Customers,Deposits,Payments
+RepairJobs,,conducted,use,peform,request,make,make
+Computers,conducted,,,,own,,
+Items,use,,,order,,,
+Repairmen,peform,,order,,,,
+Customers,request,own,,,,,
+Deposits,make,,,,,,
+Payments,make,,,,,,
