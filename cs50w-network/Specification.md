@@ -1,6 +1,8 @@
 # CS50's Network Project Specification
 Using Python, JavaScript, HTML, and CSS, complete the implementation of a social network that allows users to make posts, follow other users, and “like” posts. You must fulfill the following requirements:
 
+![]{/cs50w-network/network.png}
+
 - **New Post:** Users who are signed in should be able to write a new text-based post by filling in text into a text area and then clicking a button to submit the post.
   - The screenshot at the top of this specification shows the “New Post” box at the top of the “All Posts” page. You may choose to do this as well, or you may make the “New Post” feature a separate page.
 
@@ -32,3 +34,7 @@ Using Python, JavaScript, HTML, and CSS, complete the implementation of a social
 - You’ll likely need to create one or more models in network/models.py and/or modify the existing User model to store the necessary data for your web application.
 - Django’s Paginator class may be helpful for implementing pagination on the back-end (in your Python code).
 - Bootstrap’s Pagination features may be helpful for displaying pages on the front-end (in your HTML).
+
+## Result design
+
+![]{cs50w-network/database-design-network.png}
