@@ -123,8 +123,6 @@ Each relationship on the simplified E-R diagram yielded two assertions. These tw
 
 **Second:** Insert the generated assertions as **optionality:cardinality** one at a time on the simplified E-R diagram, in the correct position, creating the detailed E-R diagram. Do this one relationship at a time, one assertion at a time.
 
-![Database%20design%20756b63faeaa543be8fb303a41f3662fc/ER-case-studies-diagrams-Page-4_(1).png](Database%20design%20756b63faeaa543be8fb303a41f3662fc/ER-case-studies-diagrams-Page-4_(1).png)
-
 **Check:** In the detailed E-R diagram each assertion is always placed closest to the first entity occurrence stated in the assertion; and each relationship has two associated assertions, one on either side of the relationship.
 
 ## 6. Transform the detailed E-R diagram into an implementable R-M diagram
@@ -174,5 +172,3 @@ This step will transform one-to-one relationships on the detailed E-R diagram in
 Combining the diagrams created in Step 6.1 to Step 6.3 creates the final Crow's Foot Relational Model Diagram. Depending on the nature and complexity of the problem, more than one diagram may be required to represent the database design.
 
 # Implementing the design
-
-![Database%20design%20756b63faeaa543be8fb303a41f3662fc/implementing.png](Database%20design%20756b63faeaa543be8fb303a41f3662fc/implementing.png)
