@@ -17,7 +17,7 @@ Relational Database ⇒ Collection of organized and inter-related data on a rela
 
 ## Relational database design
 
-Involves creating a model of the artefact you are trying to create. we have two ways of modelling the data, the **Entity-relationship model,** which is a ****conceptual model, shows what is being represented, the user's point of view about data. And we also have the **Relational model**, which is an implementation model, it shows how the data will be represented in the database, the developer's point of view about data. It's important that the two models exist, and the developer's view follows the user's view of data. 
+Involves creating a model of the artefact you are trying to create. we have two ways of modelling the data, the **Entity-relationship model,** which is a **conceptual model**, shows what is being represented, the user's point of view about data. And we also have the **Relational model**, which is an implementation model, it shows how the data will be represented in the database, the developer's point of view about data. It's important that the two models exist, and the developer's view follows the user's view of data. 
 
 ## Other important concepts
 
