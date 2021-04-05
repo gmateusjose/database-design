@@ -22,3 +22,14 @@ Are simply right and wrong ways to employ SQL in an application.
 
 Many of the antipatterns are the results of misundertanding concepts of database theory, here we have some studies on these misunderstood topics.
 
+### What does relational mean?
+
+The name relational refers to tables (which in math we call relation), or to the way in a column relates to antoher columns inside a table. Also according with math: A relation is a combination of two sets of values, where these values are from different domains (origins), with some condition that relates these sets. 
+
+When thinking about normalizing tables we first must assure that tables are properly relations, here we have some conditions that should be valid:
+
+1. Rows have no order from top to bottom (the set of all results must be the same).
+2. Columns have also no order from left to right (the set of all results also must be the same).
+3. Duplicate rows are not allowed (The whole rows must be unique, when searching for an item, you should get only one item).
+4. Every column has one type, and one value per row.
+5. Rows have no hidden components (columns contain data values, not physical storage indicators like row's id). 
