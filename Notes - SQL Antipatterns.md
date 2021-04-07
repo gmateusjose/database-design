@@ -2,7 +2,17 @@
 
 What is an antipattern? is simply a technique used to solve some problem, that often leads to another problem, maybe harder to solve than the first one. Frequently an antipattern is also a mistep when solving a problem.
 
-**Logical Database Design Antipatterns:** They are antipatterns that appears when we deciding what data we do need to put in our databases, and how we organize this data.
+## Logical Database Design Antipatterns
+They are antipatterns that appears when we deciding what data we do need to put in our databases, and how we organize this data.
+
+### Jaywalking - Store multivalue attributes
+**Using comma-separated lists to avoid creating an intersection table for a many-to-many relationship in order to store multivalue attributes:** This antipattern difficults queries, updates, validation for each item in this list, not to mention that the programmer should choose a separator character and fix with it, and the list length limitation (because a string can store only a certain quantity of chars).
+
+The Jaywalking antipattern could really speed up some queries, if you don't need to change the values from lists, and if your database really need a comma-separated format from another source, just to store it, it's fine.
+
+Although in most general creating an intersection table to hold many-to-many relationships is better suitable, they make the queries, updates and validations a lot easier. You don't need to worry about separator characters and list limitations. Plus you can also create additional attributes for each entries adding columns to the intersection table.
+
+### Naive Trees
 
 **Physical Database Design Antipatterns:** Physical database design antipatterns are concerned to how implement the data management as efficiently as possible - including tables, indexes, and so on.
 
